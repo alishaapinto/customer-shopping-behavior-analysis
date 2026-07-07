@@ -1,22 +1,3 @@
-#!/usr/bin/env column
-"""
-================================================================================
-PROJECT NAME: Customer Shopping Behavior Analysis
-AUTHOR      : Data Analyst Portfolio Project
-OBJECTIVE   : Conduct an end-to-end exploratory data analysis (EDA) to extract 
-              actionable business insights, calculate critical financial KPIs, 
-              and generate executive-ready visualizations.
-LIBRARIES   : pandas, matplotlib.pyplot, os, time
-================================================================================
-README / INTERVIEW GUIDE:
-- This script is designed as a modular, production-grade pipeline.
-- It utilizes defensive programming (try-except blocks) to handle missing files 
-  and runtime anomalies gracefully.
-- Visualization styling leverages Matplotlib's 'ggplot' style for clean aesthetics,
-  and exports at 300 DPI for presentation-ready quality.
-================================================================================
-"""
-
 import os
 import time
 import pandas as pd
